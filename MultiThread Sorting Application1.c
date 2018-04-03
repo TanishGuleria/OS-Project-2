@@ -83,6 +83,7 @@ sleep(3);
  for(i=0;i<totalSize;i++)
  {
   d[i] = a[i];
+   printf("%d \t",d[i]);
  }
 
  for(i=0;i<totalSize;i++)
