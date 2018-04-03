@@ -54,7 +54,7 @@ for(i=0;i<sublistsize2;i++)
 {
   c[i]=a[i];
 }
-printf("Second Sorted array:\n");
+printf("\nSecond Sorted array:\n");
 for(i=0;i<sublistsize2;i++)
 {
   printf("%d \t",c[i]);
@@ -107,7 +107,7 @@ void main()
 {
  int n,i,j=0,k=0;
  pthread_t th1,th2,th3;
- printf("\nEnter size of array:");
+ printf("Enter size of array:");
  scanf("%d",&n);
  for(i=0;i<n;i++)
  {
@@ -125,12 +125,12 @@ for(i=n/2;i<n;i++)
  k++;
 }
 sublistsize2=k;
-printf("First array:\n ");
+printf("First array:\n");
 for(i=0;i<n/2;i++)
 {
 printf("%d \n",b[i]);
 }
-printf("Second array:\n ");
+printf("Second array:\n");
 
 for(i=0;i<n/2;i++)
 {
