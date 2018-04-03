@@ -2,7 +2,7 @@
 #include<sys/types.h>
 #include<fcntl.h>
 #include<pthread.h>
-int a[30],b[15],c[15],d[30];
+int a[30],b[15],c[15],d[30];//globally declare array
 int sublistsize1,sublistsize2;
 //function for first sublist
 void sublist1(int a[])
