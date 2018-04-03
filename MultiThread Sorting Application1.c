@@ -77,7 +77,7 @@ sleep(3);
   a[k]=c[i];
  k++; 
  }
- printf("Merged Array: \n"); 
+ printf("\nMerged Array: \n"); 
  for(i=0;i<totalSize;i++)
  {
   d[i] = a[i];
@@ -96,7 +96,7 @@ sleep(3);
 	}
    }
  }
- printf("Merge SOrt: \n");
+ printf("\nMerge SOrt: \n");
  for(i=0;i<totalSize;i++)
  {
    printf("%d \t",d[i]);
@@ -125,12 +125,12 @@ for(i=n/2;i<n;i++)
  k++;
 }
 sublistsize2=k;
-printf("First array: \n ");
+printf("First array:\n ");
 for(i=0;i<n/2;i++)
 {
 printf("%d \n",b[i]);
 }
-printf("Second array: \n ");
+printf("Second array:\n ");
 
 for(i=0;i<n/2;i++)
 {
