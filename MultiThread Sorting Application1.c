@@ -26,7 +26,7 @@ for(i=0;i<sublistsize1;i++)
 {
   b[i]= a[i];
 }
-printf("First Sorted array: \n");
+printf(" \n First Sorted array: \n");
 for(i=0;i<sublistsize1;i++)
 {
   printf("%d \t",b[i]);
@@ -51,12 +51,12 @@ sleep(2);
   }
  }
 
-printf("Second Sorted array: \n");
+printf(" \n Second Sorted array: \n");
 for(i=0;i<sublistsize2;i++)
 {
   c[i]=a[i];
 }
-printf("Second Sorted array: \n");
+printf(" \n Second Sorted array: \n");
 for(i=0;i<sublistsize2;i++)
 {
   printf("%d \t",c[i]);
@@ -79,7 +79,7 @@ sleep(3);
   a[k]=c[i];
  k++; 
  }
- printf("Merged Array: \n"); 
+ printf("\n Merged Array: \n"); 
  for(i=0;i<totalSize;i++)
  {
   d[i] = a[i];
@@ -108,7 +108,7 @@ void main()
 {
  int n,i,j=0,k=0;
  pthread_t th1,th2,th3;
- printf("Enter size of array:");
+ printf("\nEnter size of array:");
  scanf("%d",&n);
  for(i=0;i<n;i++)
  {
@@ -126,12 +126,12 @@ for(i=n/2;i<n;i++)
  k++;
 }
 sublistsize2=k;
-printf("First array: ");
+printf(" \n First array: \n ");
 for(i=0;i<n/2;i++)
 {
 printf("%d \n",b[i]);
 }
-printf("Second array: ");
+printf(" \n Second array: \n ");
 
 for(i=0;i<n/2;i++)
 {
